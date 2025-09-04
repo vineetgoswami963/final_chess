@@ -21,7 +21,7 @@
 import io from 'socket.io-client'
 
 // Ensure this has the full protocol prefix
-const URL = 'https://chessbackend-production.up.railway.app' 
+const URL = 'chessbackend-production.up.railway.app' 
 
 const socket = io(URL)
 
