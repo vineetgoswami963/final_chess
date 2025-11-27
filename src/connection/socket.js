@@ -1,7 +1,7 @@
 import io from 'socket.io-client'
 
 // const URL = 'http://localhost:8000/' 
-const URL = 'chessbackend-production.up.railway.app' 
+const URL = 'https://chess-back-1.onrender.com' 
 
 const socket = io(URL)
 
